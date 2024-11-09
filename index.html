@@ -4,8 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>QR code generator</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="main-page">
+    <div class="flex-box">
+      <h1>QR Code Generator</h1>
+      <div class="input-div">
+        <input type="text" class="qr-input js-qr-input">
+        <button class=" qr-generate-button js-qr-generate-button">Generate</button>
+      </div>
+      <div class="qrcode-display js-qrcode-display">
+        <div class="temp-text js-temp-text">
+          <div> QR code will be generated</div>
+          <div style="text-align: center;">here.</div>
+        </div>
+      </div>
+    </div>
+  </div>
   
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
 </body>
 </html>

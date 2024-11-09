@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 58px;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #6c757d;
+  height: 600px;
+  width: 600px;
+  border-radius: 8px;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 40px;
+  color: #212529;
+}
+
+.qr-input {
+  font-size: 15px;
+  width: 190px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 4px;
+  border: 1px solid #212529;
+  background-color: #dee2e6;
+}
+
+.input-div {
+  display: flex;
+  column-gap: 5px;
+  margin-bottom: 40px;
+}
+
+.qr-generate-button {
+  font-size: 15px;
+  background-color: #212529;
+  color: #f8f9fa;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px 5px 10px;
+}
+
+.qrcode-display {
+  height: 300px;
+  width: 300px;
+  border: 1px solid #495057;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.temp-text {
+  font-size: 15px;
+  color: #212529;
+}
